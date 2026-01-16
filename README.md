@@ -53,7 +53,7 @@ Everything is built on docker compose, so starting the project out is pretty sim
       ```bash
       python -c "import secrets; print(secrets.token_urlsafe(32))"
       ```
-   1. [optional] Connect your SMTP server (checkout [Mailgun](mailgun.com)!)
+   1. [optional] Connect your SMTP server (checkout [Mailgun](https://mailgun.com)!)
 1. Run:
    ```bash
    docker compose build
@@ -70,4 +70,4 @@ Frontend docs: [frontend/README.md](./frontend/README.md).
 
 ## License
 
-The Full Stack FastAPI Template is licensed under the terms of the MIT license.
+EasyFarm is licensed under the terms of the MIT license. It is derived from the [Full Stack FastAPI Template](https://github.com/fastapi/full-stack-fastapi-template), which is also MIT-licensed.
